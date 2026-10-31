@@ -51,3 +51,11 @@ This is a Cog model for the DeepSeek VL2 language model.
     1. **Training the VL Adaptor:** Using image-text pairs to train the vision-language adaptor and hybrid vision encoder.
     2. **Joint Pre-training:** Integrating visual and linguistic information to pre-train the model on a mixed dataset.
     3. **Supervised Finetuning:** Fine-tuning the model on specialized VL chat data to enhance its capabilities in handling conversational tasks.
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE).
+
+`deepseek_vl2/` comes from [deepseek-ai/DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2), which is MIT, with some files under Apache 2.0 as noted in their headers.
+
+The model weights are not covered by this license. [deepseek-ai/deepseek-vl2-small](https://huggingface.co/deepseek-ai/deepseek-vl2-small) is released under the [DeepSeek Model License](https://github.com/deepseek-ai/DeepSeek-LLM/blob/HEAD/LICENSE-MODEL). Check its terms before use.
